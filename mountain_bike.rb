@@ -1,9 +1,8 @@
-require_relative 'roll_pack'
 require_relative 'luggage'
 
 class MountainBike
 
-  attr_reader: :luggage, :weekly_rate, :daily_rate, :hourly_rate
+  attr_reader :luggage, :weekly_rate, :daily_rate, :hourly_rate
 
   def initialize
     @luggage = Luggage.new
