@@ -9,14 +9,6 @@ class MountainBike
     @hourly_rate = 10
   end
 
-  def clean
-    puts "Cleaning..."
-  end
-
-  def adjust_suspension
-    puts "Adjusting suspension..."
-  end
-
   def luggage
     @luggage
   end

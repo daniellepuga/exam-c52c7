@@ -6,15 +6,7 @@ class RoadBike
     @panniers = [Pannier.new, Pannier.new]
     @daily_rate = 15
   end
-
-  def clean
-    puts "Cleaning..."
-  end
-
-  def lubricate_gears
-    puts "Lubricating gears..."
-  end
-
+  
   def panniers
     @panniers
   end
