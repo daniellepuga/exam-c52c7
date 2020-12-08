@@ -1,5 +1,4 @@
 
-
 class Pannier
 
   def initialize
